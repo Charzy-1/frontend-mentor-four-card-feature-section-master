@@ -61,13 +61,22 @@ body {
 
 .card {
   padding: 15px;
-  border: 1px solid gray;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow);
 }
 
 .card2 {
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
+}
+
+.card2 .vertical_card1 {
+  border-top: 3px solid var(--Red); 
+}
+
+.card2 .vertical_card2 {
+  border-top: 3px solid var(--Orange); 
 }
 
 .icon-container {
