@@ -72,7 +72,6 @@ body {
 .title-container h1 {
   font-size: var(--space-3);
   margin: 0.1rem 0 var(--space-1);
-
 }
 
 .container {
@@ -129,5 +128,13 @@ body {
 
   .title-container .paragraph2 {
     max-width: 90%;
+  }
+
+  .title-container h1 {
+    font-size: 1.3rem;
+  }
+
+  .title-container .paragraph1 {
+    font-size: 1.3rem;
   }
 }
