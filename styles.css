@@ -48,6 +48,27 @@ body {
 /* CONTAINER STYLING */
 .title-container {
   text-align: center;
+  max-width: 80%;
+  margin: 8% auto 0;
+}
+
+.title-container .paragraph1 {
+  font-size: var(--space-3);
+  color: var(--Grey400);
+}
+
+.title-container .paragraph2 {
+  color: var(--Grey500);
+  font-size: var(s);
+  max-width: 50%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.title-container h1 {
+  font-size: var(--space-3);
+  margin: 0.1rem 0 var(--space-1);
+
 }
 
 .container {
